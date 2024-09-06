@@ -141,3 +141,74 @@ Exploring relationships between variables.
 - **Types of ANOVA**
   - **One-way ANOVA**: Tests differences between one factor
   - **Two-way ANOVA**: Tests differences across two factors
+ 
+
+
+
+
+
+
+
+# Statistical Notations and Symbols
+
+| **Name**                          | **Symbol**    |
+|-----------------------------------|---------------|
+| Population Size                   | N             |
+| Sample Size                       | n             |
+| Mean (Population)                 | μ             |
+| Mean (Sample)                     | x̄            |
+| Median                            | x̃            |
+| Mode                              | (No standard symbol) |
+| Variance (Population)             | σ²            |
+| Variance (Sample)                 | s²            |
+| Standard Deviation (Population)   | σ             |
+| Standard Deviation (Sample)       | s             |
+| Interquartile Range               | IQR           |
+| Range                             | (No standard symbol) |
+| Covariance                         | Cov(X, Y)     |
+| Pearson Correlation Coefficient    | r             |
+| Spearman's Rank Correlation        | rₛ            |
+| Z-Score                            | z             |
+| T-Statistic                        | t             |
+| Chi-Square Statistic               | χ²            |
+| F-Statistic                        | F             |
+| P-Value                            | p             |
+| Confidence Interval                | CI            |
+| Significance Level                 | α             |
+| Degrees of Freedom                 | df            |
+| Sum                                | Σ             |
+| Probability                        | P             |
+| Probability Density Function (PDF) | f(x)          |
+| Probability Mass Function (PMF)    | p(x)          |
+| Cumulative Distribution Function (CDF) | F(x)      |
+| Effect Size                        | d             |
+| Power of a Test                    | 1 - β         |
+| Beta (Type II Error Probability)   | β             |
+| Kurtosis                           | κ             |
+| Skewness                           | γ             |
+| Standard Error                     | SE            |
+| Likelihood                         | L             |
+| Log-Likelihood                     | ℓ             |
+| Principal Component                | PC            |
+| Eigenvalue                         | λ             |
+| Eigenvector                        | v             |
+| Null Hypothesis                    | H₀            |
+| Alternative Hypothesis             | H₁            |
+| Residual                           | e             |
+| Estimated Coefficient              | ˆβ            |
+| R-Squared                          | R²            |
+| Adjusted R-Squared                 | R²ₐ           |
+| Partial Correlation                | ρₚ            |
+| True Positive Rate (Sensitivity)   | TPR           |
+| True Negative Rate (Specificity)   | TNR           |
+| False Positive Rate (1 - Specificity) | FPR        |
+| False Negative Rate (1 - Sensitivity) | FNR        |
+| Area Under the Curve (AUC)         | AUC           |
+| Mean Absolute Error                | MAE           |
+| Mean Squared Error                 | MSE           |
+| Root Mean Squared Error            | RMSE          |
+| Gini Index                         | Gini          |
+| Heteroscedasticity                 | (No standard symbol) |
+| Autocorrelation                    | ρ             |
+| Lag Operator                       | L             |
+| Durbin-Watson Statistic            | DW            |
