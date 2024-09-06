@@ -1,5 +1,6 @@
 # Detailed Statistics Mind Map
-![Statistics Mind Map](./Statistics_mind_map_in_png.png)
+![Statistics Mind Map](./Statistics%20mind%20map%20in%20png.png)
+
 
 
 ## 1. Descriptive Statistics
