@@ -3,157 +3,117 @@
 
 
 
+# Detailed Statistics Mind Map
+
 ## 1. Descriptive Statistics
+Descriptive statistics summarize data and help you understand the basic patterns and characteristics. 
+
 - **Types of Data**
-  - **Quantitative (Numerical)**
-    - **Discrete**
-      - Whole numbers (No decimal points)
-      - Example: Number of students, number of banks
-    - **Continuous**
-      - Can take any value (Decimals included)
-      - Example: Weight, height, temperature
-  - **Qualitative (Categorical)**
-    - **Nominal**
-      - Categories without any order
-      - Example: Gender (Male, Female), Type of car (Sedan, SUV)
-    - **Ordinal**
-      - Categories with a meaningful order or rank
-      - Example: Satisfaction level (Low, Medium, High), Education level (High School, Bachelor's, Master's)
+  - **Quantitative (Numerical Data)**
+    - **Discrete Data**: Whole numbers that cannot have decimal points.
+      - **Example**: The number of books in a library. You can have 10 or 20 books, but not 10.5 books.
+    - **Continuous Data**: Numbers that can take any value, including decimals.
+      - **Example**: Height or weight. Someone could be 170.5 cm tall or weigh 68.75 kg.
+  - **Qualitative (Categorical Data)**
+    - **Nominal Data**: Categories that do not have an inherent order.
+      - **Example**: Eye color (blue, brown, green), types of cars (sedan, truck, SUV).
+    - **Ordinal Data**: Categories that follow a meaningful order or rank.
+      - **Example**: Education levels (high school, bachelor’s, master’s), satisfaction levels (low, medium, high).
 
-- **Measures of Central Tendency**
-  - **Mean**
-    - Arithmetic average of the data
-    - Used when data is symmetrically distributed
-  - **Median**
-    - Middle value of the data
-    - Used when data is skewed
-  - **Mode**
-    - Most frequently occurring value
-    - Used for categorical data
+- **Measures of Central Tendency** (Summarizing the center of your data)
+  - **Mean (x̄)**: The sum of all values divided by the number of values.
+    - **Example**: The average test score in a class.
+  - **Median (M)**: The middle value when data is ordered.
+    - **Example**: Median household income.
+  - **Mode**: The value that occurs most frequently.
+    - **Example**: The most common shoe size in a store.
 
-- **Measures of Dispersion**
-  - **Range**
-    - Difference between maximum and minimum values
-    - Example: Max = 100, Min = 50, Range = 50
-  - **Variance**
-    - Measures the spread of data points around the mean
-    - Higher variance means more spread out
-  - **Standard Deviation**
-    - Square root of variance, shows dispersion in original units
-  - **Interquartile Range (IQR)**
-    - Spread of the middle 50% of data
-    - Example: Q1 = 25th percentile, Q3 = 75th percentile, IQR = Q3 - Q1
+- **Measures of Dispersion** (Understanding how spread out the data is)
+  - **Range (R)**: The difference between the maximum and minimum values.
+    - **Example**: If the highest exam score is 95 and the lowest is 60, the range is 35.
+  - **Variance (σ² or s²)**: Measures how far each data point is from the mean.
+    - **Example**: If people's weights vary widely in a group, the variance is high.
+  - **Standard Deviation (σ or s)**: The square root of variance.
+    - **Example**: In a class where everyone scored similarly, the standard deviation would be low.
+  - **Interquartile Range (IQR)**: Measures the spread of the middle 50% of the data.
+    - **Example**: Difference between the 75th percentile (Q3) and 25th percentile (Q1).
 
-- **Data Visualization**
-  - **Histogram**
-    - Shows the distribution of continuous data
-  - **Bar Chart**
-    - Used for comparing categorical data
-  - **Box Plot**
-    - Visualizes spread, median, and outliers in data
+- **Data Visualization Tools**
+  - **Histogram**: Shows the frequency distribution of continuous data.
+  - **Bar Chart**: Compares different categories of data.
+  - **Box Plot**: Shows the spread of the data, including the median, quartiles, and outliers.
 
-- **Skewness and Kurtosis**
-  - **Left Skewed (Negative)**
-    - Long tail on the left
-    - Example: Exam scores where most students did well
-  - **Right Skewed (Positive)**
-    - Long tail on the right
-    - Example: Income distribution
-  - **Symmetric (Normal)**
-    - Data is evenly spread
-    - Mean, median, mode are equal
+- **Skewness and Kurtosis** (Shape of Data)
+  - **Left Skewed (Negative Skew)**: The left tail is longer, and most values are concentrated on the right.
+  - **Right Skewed (Positive Skew)**: The right tail is longer, and most values are concentrated on the left.
+  - **Symmetric Distribution (Normal)**: Mean, median, and mode are equal.
 
 ---
 
 ## 2. Inferential Statistics
+Inferential statistics allow you to make predictions or generalizations about a population based on sample data.
+
 - **Sampling Methods**
-  - **Simple Random Sampling**
-    - Every individual has an equal chance of being selected
-  - **Stratified Sampling**
-    - Divides population into subgroups (strata) and samples from each
-  - **Cluster Sampling**
-    - Divides population into clusters and samples entire clusters
+  - **Simple Random Sampling**: Every individual has an equal chance of being selected.
+  - **Stratified Sampling**: Population divided into subgroups (strata) and random samples are taken from each.
+  - **Cluster Sampling**: Population divided into clusters and entire clusters are sampled.
 
 - **Estimation**
-  - **Point Estimate**
-    - Single best guess for a population parameter (e.g., sample mean)
-  - **Interval Estimate**
-    - Provides a range of plausible values for the parameter
-    - **Confidence Interval (CI)**
-      - Range of values within which the true population parameter lies
-      - 95% CI: Means we are 95% confident the true value lies within the interval
+  - **Point Estimate**: A single value estimate of a population parameter (e.g., sample mean).
+  - **Interval Estimate**: A range of values likely to include the population parameter.
+    - **Confidence Interval (CI)**: Range of values within which the true population parameter lies.
 
 - **Hypothesis Testing**
-  - **Null Hypothesis (H0)**
-    - Assumes no effect or difference exists
-  - **Alternative Hypothesis (H1)**
-    - Assumes there is an effect or difference
-  - **P-Value**
-    - Probability of obtaining results as extreme as the observed ones if H0 is true
-    - Example: P < 0.05 means we reject the null hypothesis
-  - **Z-Test**
-    - Used for large samples when population variance is known
-  - **T-Test**
-    - Used for smaller samples or when population variance is unknown
-    - Types: Paired, Unpaired, One-sample
+  - **Null Hypothesis (H₀)**: Assumes no effect or difference exists.
+  - **Alternative Hypothesis (H₁)**: Assumes an effect or difference exists.
+  - **P-Value (p)**: Probability of obtaining results as extreme as the observed ones if H₀ is true.
+  - **Z-Test (Z)**: Used for large samples when population variance is known.
+  - **T-Test (t)**: Used for smaller samples or when population variance is unknown.
+    - Types: Paired, Unpaired, One-sample.
 
 - **Errors in Hypothesis Testing**
-  - **Type I Error (False Positive)**
-    - Rejecting H0 when it is true
-  - **Type II Error (False Negative)**
-    - Failing to reject H0 when it is false
+  - **Type I Error (α)**: Rejecting H₀ when it’s true.
+  - **Type II Error (β)**: Failing to reject H₀ when it’s false.
 
-- **ANOVA (Analysis of Variance)**
-  - Compares means across multiple groups
-  - Assumptions: Normality, Homogeneity of variance
-  - **Types:**
-    - **One-way ANOVA**
-      - Tests for differences between means of one factor
-    - **Two-way ANOVA**
-      - Tests for differences across two factors
+- **ANOVA (Analysis of Variance)**: Compares means across multiple groups to see if they differ significantly.
+  - **One-Way ANOVA**: Compares means of one factor across several groups.
+  - **Two-Way ANOVA**: Compares means across two factors.
 
 ---
 
 ## 3. Probability Distributions
-- **Normal Distribution (Gaussian) (PDF)**
-  - Symmetrical, bell-shaped distribution
-  - Mean = Median = Mode
-  - Common in natural and social sciences
-  - **Example**: Height of adults
-  - **Uses**: Z-scores, standard normal distribution
+A probability distribution describes how the values of a random variable are spread out.
 
-- **Bernoulli Distribution (PMF)**
-  - Two possible outcomes: Success (1) or Failure (0)
-  - **Example**: Flipping a coin (Heads = 1, Tails = 0)
+- **Normal Distribution (N(μ,σ²))**: A symmetric bell-shaped curve where mean, median, and mode are equal.
+  - **Example**: Heights of people, IQ scores.
 
-- **Binomial Distribution (PMF)**
-  - Number of successes in a fixed number of independent trials
-  - **Example**: Tossing a coin 10 times, counting heads
+- **Bernoulli Distribution (P(X=1))**: A distribution with two outcomes: success (1) or failure (0).
+  - **Example**: Flipping a coin.
 
-- **Poisson Distribution (PMF)**
-  - Probability of a given number of events occurring in a fixed interval
-  - **Example**: Number of phone calls received per minute
+- **Binomial Distribution (B(n,p))**: Describes the number of successes in a fixed number of independent trials.
+  - **Example**: Number of heads in 10 coin tosses.
 
-- **Uniform Distribution**
-  - Every outcome has an equal probability
-  - **Example**: Rolling a fair die
+- **Poisson Distribution (P(X=k))**: Used for counting the number of events happening in a fixed interval of time or space.
+  - **Example**: Number of calls received at a call center per hour.
 
-- **Log-Normal Distribution (PDF)**
-  - Distribution of a variable whose logarithm is normally distributed
-  - **Example**: Stock prices
+- **Uniform Distribution**: All outcomes are equally likely.
+  - **Example**: Rolling a fair die (each face has a 1/6 probability).
+
+- **Log-Normal Distribution**: A distribution where the logarithm of the variable is normally distributed.
+  - **Example**: Stock prices.
 
 ---
 
 ## 4. Correlation and Regression
-- **Covariance**
-  - Measures how two variables move together
-  - Positive: Variables move in the same direction, Negative: Opposite directions
-- **Correlation**
-  - **Pearson Correlation**: Measures the linear relationship
-  - **Spearman's Rank Correlation**: Measures monotonic relationships
+Exploring relationships between variables.
+
+- **Covariance (Cov(X,Y))**: Measures how two variables move together.
+- **Correlation (ρ or r)**: A normalized version of covariance.
+  - **Pearson Correlation (rₓᵧ)**: Measures the strength of the linear relationship.
+  - **Spearman's Rank Correlation (ρₛ)**: Measures monotonic relationships (not necessarily linear).
 - **Regression**
-  - **Linear Regression**: Models the relationship between a dependent and independent variable
-  - **Multiple Regression**: Involves more than one independent variable
+  - **Linear Regression (Y = β₀ + β₁X)**: Predicts the value of a dependent variable based on an independent variable.
+  - **Multiple Regression (Y = β₀ + β₁X₁ + β₂X₂ + ...)**: Uses more than one independent variable to make predictions.
 
 ---
 
